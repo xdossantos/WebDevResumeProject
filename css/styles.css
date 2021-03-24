@@ -1,0 +1,61 @@
+img .profileImage {
+    width: 50%;
+    height: auto;
+    margin: 5px; 
+    border-radius: 25px;
+}
+
+p, ul, li, a {
+    color:#3C3C3B; 
+}
+
+container {
+    display:flex; 
+    flex-direction:row; 
+} 
+
+.sideMenu { 
+    background-color: #EBEBD3; 
+    /* background-color:#ff0000 */
+    border: 25px; 
+    border-color: black;
+    padding: 10px;
+; 
+
+}
+
+.mainContent {
+    margin: 10px; 
+    padding: 10px; 
+}
+
+footer {
+    background-color: #3C3C3B;
+    /* text-align: center;  */
+}
+
+body {
+    background-color: #EBEBD3; 
+
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#skills {
+    border-color: black !important;
+    border-style: solid !important;
+}
+
+@keyframes exampleAnim {
+    from { background-color : red; }
+    to {background-color: yellow}
+}
+
+#mainHeaderText { 
+
+animation-name: exampleAnim;
+animation-duration: 6s; 
+
+}
