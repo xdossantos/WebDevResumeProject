@@ -11,7 +11,7 @@ p, ul, li, a {
 
 container {
     display:flex; 
-    flex-direction:row; 
+    /* flex-direction:row;  */
 } 
 
 .sideMenu { 
